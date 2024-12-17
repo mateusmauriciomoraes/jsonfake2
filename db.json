@@ -1,0 +1,22 @@
+{
+"hospedagens": [
+        {"id": 1, "checkIn": "10/06/2024", "checkOut": "15/06/2024", "idHospede": 1, "adultos": 2, "crianças": 2, "idQuartos": "1", "idServicos": "1", "idItens": "1"},
+        {"id": 2, "checkIn": "13/08/2023", "checkOut": "16/08/2023", "idHospede": 1, "adultos": 3, "crianças": 0, "idQuartos": "1", "idServicos": "1", "idItens": "1"},
+        {"id": 3, "checkIn": "21/09/2023", "checkOut": "27/09/2023", "idHospede": 2, "adultos": 1, "crianças": 2, "idQuartos": "2", "idServicos": "2", "idItens": "2"}
+    ],
+   "hospedes": [
+        {"id": 1, "nome": "hospede1", "telefone": "11111111111", "email": "email1", "cpf": "111111111", "estado": "estado1", "cidade":"cidade1", "cep": "11111-111", "bairro": "bairro1", "logradouro": "logradouro1", "numero": "1", "complemento":"", "genero": "masc", "dataNasc": "15/02/2000"},
+        {"id": 2, "nome": "hospede2", "telefone": "22222222222", "email": "email2", "cpf": "22222222222", "estado": "estado2", "cidade":"cidade2", "cep": "22222-222", "bairro": "bairro2", "logradouro": "logradouro2", "numero": "2", "complemento": "bloco A 2006", "genero": "masc", "dataNasc": "10/03/2002"},
+        {"id": 1, "nome": "hospede3", "telefone": "33333333333", "email": "email3", "cpf": "33333333333", "estado":"estado3", "cidade":"cidade3", "cep": "33333-333", "bairro": "bairro3", "logradouro": "logradouro3", "numero": "3", "complemento": "", "genero": "masc", "dataNasc": "07/07/2007"}
+    ],
+   "itens": [
+      {"id":1, "quantidadeEmEstoque": 5, "nome": "Airfreyer", "preço": 38.78},
+      {"id":2, "quantidadeEmEstoque": 8, "nome": "Tv", "preço": 56.8},
+      {"id":3, "quantidadeEmEstoque": 2, "nome": "Frigobar", "preço": 10}
+    ],
+   "servicos":[
+        {"id":1, "nome":"Massagem", "descricao":"Massagem do Mateus e Lorran", "preco":0, "idHotel":2, "minutosPorAgendamento":60},
+        {"id":2, "nome":"Jogar bola com o Lorran", "descricao":"Partida de futebol com o jogador Lorran", "preco":10000.00, "idHotel":1, "minutosPorAgendamento":"0"},
+        {"id":3, "nome":"Papo com o Léo", "descricao":"Papo sério com o Léo", "preco":999999.99, "idHotel":1, "minutosPorAgendamento":5}
+   ]
+}
